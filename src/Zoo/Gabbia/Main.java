@@ -5,7 +5,7 @@ import Zoo.Animale.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class main {
+public class Main {
     public static void main(String[] args){
         ArrayList<Gabbia> all = new ArrayList<>();
 
@@ -45,5 +45,9 @@ public class main {
             System.out.println(m.getTypeAnimalsString());  // accesso ai campi di gabbia
         }
         System.out.println("Il numero di gabbie a tua disposizione sono: " + all.size());
+
+
+
+
     }
 }
