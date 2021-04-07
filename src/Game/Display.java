@@ -22,7 +22,7 @@ public class Display {
         frame = new JFrame(title);
         frame.setSize(width, height);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   // close the program when the windows is closed
-        frame.setResizable(false);
+        frame.setResizable(true);
         //frame.getLocation();
         frame.setVisible(true);
 
@@ -36,5 +36,9 @@ public class Display {
         frame.add(canvas);
         frame.pack();
 
+    }
+
+    public Canvas getCanvas(){
+        return canvas;
     }
 }
