@@ -1,4 +1,4 @@
-package Lambda;
+package Functional;
 
 @FunctionalInterface
 public interface TriFunction<I1, I2, I3, O>{

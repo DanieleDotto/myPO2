@@ -1,4 +1,4 @@
-package Lambda;
+package Functional;
 
 import java.util.ArrayList;
 import java.util.List;

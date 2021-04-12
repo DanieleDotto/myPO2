@@ -1,4 +1,4 @@
-package Lambda;
+package Functional;
 
 @FunctionalInterface
 public interface BiFunction<I1, I2, O> {
